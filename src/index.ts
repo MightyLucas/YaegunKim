@@ -8,5 +8,10 @@ server.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
+server.get('/login', function (req, res) {
+    res.sendFile(path.join(__dirname, 'public/login.html'));
+});
+
+
 server.listen(port, () => console.log('Server started at :' + port));
 
