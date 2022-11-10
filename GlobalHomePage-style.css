@@ -1,0 +1,29 @@
+/*TopBar*/
+
+.TopBar {
+    background-color: lightgreen;
+    height: 60px;
+    display: flex;
+    vertical-align: middle;
+}
+.LogoArea {
+    background-color: lightpink;
+    height: 40px; width: 80px;
+    margin-left: 10px;
+    margin-top: auto;
+}
+
+
+/*Body*/
+
+
+.Body {
+    background-color: lightblue;
+}
+
+/*Footer*/
+
+.Footer {
+    background-color: lightcoral;
+    height: 40px;
+}
